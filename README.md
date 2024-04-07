@@ -26,11 +26,10 @@ git checkout -b criar/inicio
 
 # Exemplo:
 ```
-git checkout -b TL-100/create-post-api
+git checkout -b 
 ```
 
-Isso é um exemplo de quando seu GitHub está integrado com o JIRA e usando esse padrão acima:
-Conexão JIRA e GitHub
+
 
 # Passo 2 - Utilizar Padrões de Commit
 
