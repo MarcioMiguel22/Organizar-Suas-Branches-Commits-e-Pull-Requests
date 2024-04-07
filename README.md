@@ -11,7 +11,7 @@ Quero muito compartilhar com vocês, então seguem alguns passos:
 ## Passo 1 - Nome da Branch
 Normalmente usamos algum provedor de gerenciamento de tarefas, seja JIRA, Trello, Asana ou qualquer outro. O ponto é: provavelmente você vai ter algum tipo de identificador que esteja atrelado à aquela tarefa, no caso do JIRA ele sempre cria um sufixo seguido de um número. Um ponto legal é que existem integrações entre o GitHub e o JIRA por exemplo (e também entre outras aplicações) então fica tudo conectado quando se cria uma branch num estilo mais ou menos assim:
 
-# Padrão:
+## Padrão:
 ```
 <id-da-sua-tarefa>/<super-resumo-da-feature>
 ```
@@ -31,7 +31,7 @@ git checkout -b
 
 
 
-# Passo 2 - Utilizar Padrões de Commit
+## Passo 2 - Utilizar Padrões de Commit
 
 Já não é de hoje que a convenção de commits do Angular é extremamente popular. E sim, ela ajuda demais à organizar os nossos commits, simplesmente porque conseguimos dividir em algo como: "tipo(escopo): descriçao". Nessa ideia temos os mais famosos tipos de commits que são os seguintes:
 
@@ -44,7 +44,7 @@ perf: Alterações relacionadas à performance
 test: Criação ou modificação de testes
 chore: Alterações em arquivos de configuração, build, distribuição, CI, ou qualquer outra coisa que não envolva diretamente o código da aplicação para o usuário final
 
-# Exemplo
+## Exemplo
 feat(posts): creating hook to integrate with posts API
 test: add missing tests for posts hook
 
@@ -53,17 +53,17 @@ Vale lembrar que o "escopo" é opcional.
 Passo 3 - Padrão de Título na Pull Request
 Depois que você já subiu sua branch com tudo feito, uma das partes cruciais para se ter uma boa documentação são as pull requests. Quando você executa um "Squash and Merge" dentro do GitHub por exemplo, é o título da sua pull request que fica como commit principal e dentro da mensagem do commit ficam os outros commits. Então um padrão bem interessante é seguir a mesma ideia da convenção, com alguns upgrades:
 
-# Padrão:
+## Padrão:
 ```
 [<id-da-sua-tarefa>] tipo(escopo): descriçao
 ```
-# Exemplo:
+## Exemplo:
 ```
 [TL-100] feat(posts): creating hook to integrate with posts API
 ```
 Com esse título já da para ter uma ideia do que rolou por cima e também acesso fácil ao identificador da tarefa, onde possívelmente terá mais detalhes sobre aquele recurso.
 
-# Passo 4 - Fazer Uma Boa Descrição na Pull Request
+## Passo 4 - Fazer Uma Boa Descrição na Pull Request
 Eu sei que escrever a parte técnica pode ser muito chato as vezes, mas é parte do trabalho do dia a dia de um dev. Nem sempre faremos só coisas legais. Juntando o título no qual já tem o link para a estória, onde ficam as descrições de regras de negócio, adicionado um breve resumo do escopo no título e mais os detalhes técnicos na descrição seguido de um screenshot da tela (se possível) é um prato cheio para conseguir mitigar problemas e resolve-los rapidamente sem ficar se perdendo no meio do caminho.
 
 Esse é o padrão que adaptei de um outro já existente e tem funcionado bem no meu dia a dia:
