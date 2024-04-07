@@ -24,7 +24,7 @@ Por exemplo, se você deseja criar uma nova branch chamada :
 git checkout -b criar/inicio
 ```
 
-# Exemplo:
+
 ```
 git checkout -b 
 ```
