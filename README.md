@@ -19,17 +19,29 @@ Certifique-se de estar no branch principal do seu repositório. Normalmente, é 
 ```
 git checkout main
 ```
-Por exemplo, se você deseja criar uma nova branch chamada :
+Por exemplo, se você deseja criar uma nova branch chamada : criar/inicio
 ```
 git checkout -b criar/inicio
 ```
-
+```
+git checkout criar/inicio
+```
+```
+git pull origin main
+```
+Faça as alterações necessárias nos arquivos do seu projeto.
 
 ```
-git checkout -b 
+git add .
 ```
 
+```
+git commit -m "Primeiro commit: Adicionando arquivos iniciais"
+```
 
+```
+git push origin criar-pagina-inicial
+```
 
 ## Passo 2 - Utilizar Padrões de Commit
 
