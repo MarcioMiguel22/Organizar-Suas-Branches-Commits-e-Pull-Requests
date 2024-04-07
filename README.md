@@ -1,4 +1,5 @@
-Uma Boa Maneira de Organizar Suas Branches, Commits e Pull Requests
+##Uma Boa Maneira de Organizar Suas Branches, Commits e Pull Requests
+
 Eu já trabalhei em diversos projetos com Git, seja hospedando em GitHub, Bitbucket, GitLab ou qualquer outro provedor. Durante essa estrada de programação percebi que muita das vezes as organizações de projetos, commits, nomes de branches e pull requests são negligenciadas.
 
 O problema maior é: quando chega o bug desastroso (e ele vai chegar), onde precisamos entender o histórico para ter uma ideia melhor do que está acontecendo, e também o que precisamos arrumar, a falta de organização em commits, pull requests e afins afeta bastante nosso trabalho.
@@ -11,8 +12,9 @@ Passo 1 - Nome da Branch
 Normalmente usamos algum provedor de gerenciamento de tarefas, seja JIRA, Trello, Asana ou qualquer outro. O ponto é: provavelmente você vai ter algum tipo de identificador que esteja atrelado à aquela tarefa, no caso do JIRA ele sempre cria um sufixo seguido de um número. Um ponto legal é que existem integrações entre o GitHub e o JIRA por exemplo (e também entre outras aplicações) então fica tudo conectado quando se cria uma branch num estilo mais ou menos assim:
 
 # Padrão:
+```
 <id-da-sua-tarefa>/<super-resumo-da-feature>
-
+```
 # Exemplo:
 git checkout -b TL-100/create-post-api
 
@@ -113,3 +115,7 @@ Obrigado por lerem e obrigado pela oportunidade de contribuir com a comunidade p
 Autor: Gustavo Sales
 
  Fonte: https://www.youtube.com/watch?v=oVnenyWTndY
+
+
+
+
