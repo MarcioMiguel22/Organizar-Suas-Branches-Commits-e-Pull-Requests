@@ -1,4 +1,4 @@
-## Uma Boa Maneira de Organizar Suas Branches, Commits e Pull Requests
+# Uma Boa Maneira de Organizar Suas Branches, Commits e Pull Requests
 
 Eu já trabalhei em diversos projetos com Git, seja hospedando em GitHub, Bitbucket, GitLab ou qualquer outro provedor. Durante essa estrada de programação percebi que muita das vezes as organizações de projetos, commits, nomes de branches e pull requests são negligenciadas.
 
