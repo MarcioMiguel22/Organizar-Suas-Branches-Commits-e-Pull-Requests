@@ -15,10 +15,20 @@ Normalmente usamos algum provedor de gerenciamento de tarefas, seja JIRA, Trello
 ```
 <id-da-sua-tarefa>/<super-resumo-da-feature>
 ```
+Certifique-se de estar no branch principal do seu repositório. Normalmente, é o branch main .
+```
+git checkout main
+```
+Por exemplo, se você deseja criar uma nova branch chamada :
+```
+git checkout -b criar/inicio
+```
+
 # Exemplo:
 ```
 git checkout -b TL-100/create-post-api
 ```
+
 Isso é um exemplo de quando seu GitHub está integrado com o JIRA e usando esse padrão acima:
 Conexão JIRA e GitHub
 
