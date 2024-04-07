@@ -13,7 +13,7 @@ Normalmente usamos algum provedor de gerenciamento de tarefas, seja JIRA, Trello
 
 ## Padrão:
 ```
-<id-da-sua-tarefa>/<super-resumo-da-feature>
+id-da-sua-tarefa/super-resumo-da-feature
 ```
 Certifique-se de estar no branch principal do seu repositório. Normalmente, é o branch main .
 ```
